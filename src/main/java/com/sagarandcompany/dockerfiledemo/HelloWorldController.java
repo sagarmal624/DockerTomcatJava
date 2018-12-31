@@ -15,4 +15,8 @@ public class HelloWorldController {
         map.put("message", "Welcome to java world");
         return map;
     }
+    @GetMapping("/test")
+    public String test() {
+        return "hello sagar";
+    }
 }
